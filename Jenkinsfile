@@ -36,7 +36,7 @@ pipeline {
                     sh '''
                         docker run -d \
                         --name shopping-cart \
-                        -p 8070:8070 \
+                        -p 8080:8080 \
                         shopping-cart:latest
                     '''
                 }
